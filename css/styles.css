@@ -20,7 +20,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -43,19 +43,27 @@ a {
   color: #404bbf;
 }
 
-.contacts-list-email,
+.page-contacts {
+  font-style: normal;
+}
+
+.contacts-list-email {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .contacts-list-phone {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.page-contacts {
-  font-style: normal;
+.contacts-list-email:hover,
+.contacts-list-email:focus {
+  color: #404bbf;
 }
 
-.contacts-list-email:hover,
-.contacts-list-email:focus,
 .contacts-list-phone:hover,
 .contacts-list-phone:focus {
   color: #404bbf;
@@ -69,7 +77,7 @@ a {
 
 .service-title {
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
@@ -114,12 +122,21 @@ button.service-order:focus {
 }
 
 /* section-3 service-team */
+.service-team {
+  background-color: #f4f4fd;
+}
+
 .team-title {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.team-members-item {
+  background-color: #ffffff;
 }
 
 .team-members-name {
@@ -141,10 +158,11 @@ button.service-order:focus {
 /* section-4 service-portfolio */
 .portfolio-title {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-projects-name {
