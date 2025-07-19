@@ -47,25 +47,14 @@ a {
   font-style: normal;
 }
 
-.contacts-list-email {
+.contacts-list-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.contacts-list-phone {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.contacts-list-email:hover,
-.contacts-list-email:focus {
-  color: #404bbf;
-}
-
-.contacts-list-phone:hover,
-.contacts-list-phone:focus {
+.contacts-list-link:hover,
+.contacts-list-link:focus {
   color: #404bbf;
 }
 
